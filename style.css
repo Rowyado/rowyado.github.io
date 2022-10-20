@@ -1,0 +1,364 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Inconsolata:wght@300&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+}
+body{
+ background: linear-gradient(45deg, #1a1328,#140d21,rgb(35, 35, 38));
+}
+
+.navbar{
+background: linear-gradient(45deg,rgb(23 23 32),#1a1328);
+height: 95px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+position: sticky;
+top: 0;
+opacity: 0.999;
+}
+
+.logo{
+color: #FFCACA;
+font-size:2.5rem;
+font-family: 'Cookie', cursive;
+}
+
+
+.unorder-list{
+display: flex;
+}
+
+
+.unorder-list li{
+list-style: none;
+padding: 5px;
+}
+
+
+.unorder-list li a{
+    text-decoration: none;
+    color: rgb(208, 202, 202);
+    margin: 0 10px;
+    font-size: 1.2rem;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+.unorder-list li a:hover{
+  color:#FFCACA;
+  border-bottom: 1px solid #FFCACA;
+}
+
+
+
+
+.home{
+ 
+  padding: 10.8rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Inconsolata', monospace;
+}
+
+.intro{
+  width: 80%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+}
+
+.intro h1{
+  color: white;
+  font-size: 6rem;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.intro p{
+  color: #FFECEF;
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+
+
+.container{
+  
+  
+}
+
+
+.service{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Inconsolata', monospace;
+}
+
+.service h1{
+  font-size: 4rem;
+  color: rgb(241, 239, 239);
+ margin: 40px 0 30px 0;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+}
+
+.box{
+ display: flex;
+ height: 200px;
+ width: 200px;
+ border: 2px solid rgb(121, 119, 119);
+ padding: 20px ;
+ box-sizing: border-box;
+ flex-direction: column;
+}
+.border-right{
+  border-right: 0;
+}
+
+
+.top{
+  display: flex;
+  
+}
+
+
+.box img{
+  filter: brightness(0.7);
+  height: 30px;
+  margin-right: 15px;
+}
+.box p{
+  font-size: 0.7rem;
+  margin:  15px 10px;
+}
+
+
+.about{
+  margin-top: 80px;
+  padding: 10rem;
+  display: flex;
+ justify-content: center;
+ color: white;
+ font-family: 'Inconsolata', monospace;
+}
+
+
+
+.box1{
+  width: 300px;
+  padding: 43px 30px 43px 43px;
+  box-sizing: border-box;
+ 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.box1 h2{
+font-size: 4.5rem;
+line-height: 4.5rem;
+color: rgb(241, 239, 239);
+margin-bottom: 20px;
+}
+.box1 h3{
+  font-size: 2.1rem;
+  line-height: 3rem;
+  margin-top: 15rem;
+}
+.box1 p{
+  color: rgb(229, 226, 226);
+}
+
+.box1 .btn{
+background-color: #FFCACA;
+padding: 10px 15px;
+letter-spacing: 2px;
+border-radius: 5px;
+margin: 10px auto auto 0;
+cursor: pointer;
+}
+.box1 .btn:hover{
+background-color: #FFECEF;
+color: rgb(244, 16, 244);
+}
+
+
+
+.blogs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem 0;
+}
+.box2{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 220px;
+  height: 310px;
+  border: 1px solid white;
+  margin-left: 12px;
+  padding: 10px 15px;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+
+.box2 .heading{
+  color: rgb(231, 229, 229);
+  margin: 4px auto;
+  font-size: 2rem;
+  letter-spacing: 4px;
+}
+
+.box2 img{
+  height: 131px;
+  width: 123px;
+  border-radius: 20%;
+  margin: 5px auto;
+}
+
+.para{
+  color : #a3a3a3;
+  margin: 5px auto 3px auto;
+  font-size: 0.87rem;
+ 
+}
+
+.box2 button{
+ padding: 5px 3px;
+  width: 80px;
+  margin-top: 3px;
+  background-color: #FFCACA;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  font-family: 'Inconsolata', monospace;
+  color: black;
+  cursor: pointer;
+}
+
+
+.box2 button:hover{
+  width: 84px;
+  padding: 7px 5px;
+}
+
+footer{
+  width: 50%;
+  margin: 10px auto;
+  padding: 10rem 2rem;
+}
+
+.contact{
+  width: 90%;
+  margin: auto;
+  font-family: 'Inconsolata', monospace;
+  
+}
+
+.contact form{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact label{
+  color: white;
+  margin: 10px 0 4px 0;
+}
+.contact .submit{
+  width: 100px;
+  padding: 7px 5px;
+  margin: 10px 0;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family: 'Inconsolata', monospace;
+  background-color: #FFCACA;
+}
+
+.contact .submit:hover{
+  width: 105px;
+  padding: 10px 8px;
+  transition: all 0.5s ease-in;
+}
+
+.height{
+  padding: 10px 0;
+}
+
+
+
+
+@media screen and (max-width:750px) {
+  .navbar{
+    width: 100%;
+    position: fixed;
+  }
+  .logo{
+    position: fixed;
+    top: 37px;
+    left: 55px;
+  }
+  .unorder-list{
+    flex-direction: column;
+   transition: all 4s ease-in-out;
+  }
+  .display-none{
+  display: none;
+  }
+  .heights{
+  height: 290px;
+  transition: all 1s ease-in-out;
+  }
+  .toogler{
+    position: fixed;
+    right: 50px;
+    top: 38px;
+  }
+  .toogle{
+    margin: 6px 0;
+    height: 2px;
+    width: 22px;
+    background-color: #FFCACA;
+
+  }
+  .about{
+    flex-wrap: wrap;
+    
+  }
+  .blogs{
+    flex-wrap: wrap;
+    
+  }
+  .besi{
+    padding: 8px;
+    width: 300px;
+  }
+  .box1{
+    height: 250px;
+  }
+  .box2{
+    margin-top: 10px;
+    width: 250px;
+  }
+  .service h1{
+    font-size: 2.8rem;
+  }
+  .service .content{
+    flex-direction: column;
+  }
+  footer{
+    width: 80%;
+  }
+}
